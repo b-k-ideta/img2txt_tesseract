@@ -15,6 +15,8 @@ def main():
     dir = getcwd()
     files = filedialog.askopenfilenames(
         filetypes=type, initialdir=dir, title="画像を選んでください（複数可）")
+    if len(files) < 1:
+        exit()
     converter = Img2Text()
 
     while 1:
@@ -65,6 +67,7 @@ def main():
         converter.process_and_dump(file, input_lang)
     if file_format == 'docx':
         converter.save_docx()
+    
 
 
 if __name__ == "__main__":
