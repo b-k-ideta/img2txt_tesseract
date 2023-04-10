@@ -2,7 +2,7 @@
 Tesseractの画像→テキスト変換をまとめてできるスクリプト
 ## 使い方
 1. Tesseractをインストール
-2. このレポジトリにあるファイルをすべてダウンロード
+2. https://github.com/b-k-ideta/img2txt_tesseract/files/11189745/img2txt_tesseract.zipからダウンロード
 3. Python3.11の実行環境がなければインストール
 4. pytesseract,opencv-python,python-docxをインストール
 5. Tesseractのインストール先がデフォルトと違う場合は, configフォルダにあるconfig.iniのパスを変える
