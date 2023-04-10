@@ -3,7 +3,6 @@ from tkinter import filedialog
 from os import getcwd
 
 # Tesseractを使った画像→テキスト変換（要Tesseract-OCRインストール）
-# 精度低め
 # config.iniでTesseractのパスを指定できる
 # 複数の.txtか一つにまとめて.docxに出力可能
 
